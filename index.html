@@ -25,6 +25,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 
 <body id="top">
@@ -46,15 +50,15 @@
           </li>
 
           <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
             <a href="#service" class="navbar-link" data-nav-link>Services</a>
           </li>
 
           <li>
             <a href="#project" class="navbar-link" data-nav-link>Project</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
           </li>
 
           <li>
@@ -117,7 +121,86 @@
       </section>
 
 
+    <!-- 
+        - #ABOUT
+      -->
 
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+    
+            <div class="about-banner img-holder" style="--width: 720; --height: 1500;">
+                <img src="./assets/images/Marketing--1.jpg" width="720" height="1500" loading="lazy" alt="about banner" class="img-cover">
+                <button class="play-btn" aria-label="Play video">
+                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+    
+            <div class="about-content">
+    
+                <h2 class="h2 section-title">About Us</h2>
+    
+                <div class="read-more-wrap">
+                    <input type="checkbox" class="read-more-state" id="read-more-about">
+                    <p class="section-text read-more-target">
+                        We’re What’s Next Infotech, and we’ve been creating websites, mobile applications, and digital marketing solutions since May 2024. The company was founded by two young aspiring IT employees who left their full-time jobs to establish a company that serves people’s needs. At What’s Next Infotech, we offer a full range of web-related services and solutions to both corporate and individual customers. Our main objective is to enhance the market value of product developing businesses. We aim to make online marketing easy for small and big businesses alike, ensuring outstanding benefits and services. We design domains that meet current market statistics.
+                    </p>
+                    <label for="read-more-about" class="read-more-trigger">Read More</label>
+                </div>
+    
+                <h3 class="h3">Our Success</h3>
+    
+                <div class="success-point">
+                    <h4 class="h4">Successful App Development</h4>
+                    <ul class="success-details">
+                        <li>Developed high-performing, user-friendly mobile applications..</li>
+                    </ul>
+                </div>
+    
+                <div class="success-point">
+                    <h4 class="h4">Top Search Rankings</h4>
+                    <ul class="success-details">
+                        <li>Secured top positions on search engines, driving organic traffic and visibility.</li>
+                    </ul>
+                </div>
+    
+                <div class="success-point">
+                    <h4 class="h4">High-Performance Apps</h4>
+                    <ul class="success-details">
+                        <li>Developed user-friendly and high-performing mobile apps that have been downloaded by thousands.</li>
+                    </ul>
+                </div>
+    
+                <div class="success-point">
+                    <h4 class="h4">Enhanced Social Engagement</h4>
+                    <ul class="success-details">
+                        <li>Created social media strategies that significantly increased follower engagement and brand loyalty.</li>
+                    </ul>
+                </div>
+    
+                <div class="success-point">
+                  <h4 class="h4">Efficient HR Processes</h4>
+                  <ul class="success-details">
+                      <li>Streamlined HR operations, improving recruitment, retention, and employee satisfaction.</li>
+                  </ul>
+              </div>
+    
+                <h3 class="h3">Our Mission</h3>
+    
+                <p class="section-text">
+                  <div class="success-point">
+                    
+                    <ul class="success-details">
+                        <li>What's Next Infotech our mission is to empower businesses with innovative and effective digital solutions. We are committed to delivering exceptional results through personalized strategies, cutting-edge technology, and a client-centric approach. Our goal is to help you achieve sustainable growth and success in the digital landscape..</li>
+                    </ul>
+                </div>
+                </p>
+    
+            </div>
+    
+        </div>
+    </section>
+    
+      
 
 
       <!-- 
@@ -555,80 +638,6 @@
 
 
 
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-    
-            <div class="about-banner img-holder" style="--width: 720; --height: 1500;">
-                <img src="./assets/images/Marketing--1.jpg" width="720" height="1500" loading="lazy" alt="about banner" class="img-cover">
-                <button class="play-btn" aria-label="Play video">
-                    <ion-icon name="play" aria-hidden="true"></ion-icon>
-                </button>
-            </div>
-    
-            <div class="about-content">
-    
-                <h2 class="h2 section-title">About Us</h2>
-    
-                <div class="read-more-wrap">
-                    <input type="checkbox" class="read-more-state" id="read-more-about">
-                    <p class="section-text read-more-target">
-                        We’re What’s Next Infotech, and we’ve been creating websites, mobile applications, and digital marketing solutions since May 2024. The company was founded by two young aspiring IT employees who left their full-time jobs to establish a company that serves people’s needs. At What’s Next Infotech, we offer a full range of web-related services and solutions to both corporate and individual customers. Our main objective is to enhance the market value of product developing businesses. We aim to make online marketing easy for small and big businesses alike, ensuring outstanding benefits and services. We design domains that meet current market statistics.
-                    </p>
-                    <label for="read-more-about" class="read-more-trigger">Read More</label>
-                </div>
-    
-                <h3 class="h3">Our Success</h3>
-    
-                <div class="success-point">
-                    <h4 class="h4">Boosted Client Revenue</h4>
-                    <ul class="success-details">
-                        <li>Increased sales and revenue through effective digital marketing campaigns.</li>
-                    </ul>
-                </div>
-    
-                <div class="success-point">
-                    <h4 class="h4">Top Search Rankings</h4>
-                    <ul class="success-details">
-                        <li>Secured top positions on search engines, driving organic traffic and visibility.</li>
-                    </ul>
-                </div>
-    
-                <div class="success-point">
-                    <h4 class="h4">High-Performance Apps</h4>
-                    <ul class="success-details">
-                        <li>Developed user-friendly and high-performing mobile apps that have been downloaded by thousands.</li>
-                    </ul>
-                </div>
-    
-                <div class="success-point">
-                    <h4 class="h4">Enhanced Social Engagement</h4>
-                    <ul class="success-details">
-                        <li>Created social media strategies that significantly increased follower engagement and brand loyalty.</li>
-                    </ul>
-                </div>
-    
-                <div class="success-point">
-                    <h4 class="h4">Efficient HR Processes</h4>
-                    <ul class="success-details">
-                        <li>Streamlined HR operations, improving recruitment, retention, and employee satisfaction.</li>
-                    </ul>
-                </div>
-    
-                <h3 class="h3">Our Mission</h3>
-    
-                <p class="section-text">
-                    Efficient HR Processes: Streamlined HR operations, improving recruitment, retention, and employee satisfaction.
-                </p>
-    
-            </div>
-    
-        </div>
-    </section>
-    
       
 
     
@@ -815,14 +824,14 @@
             <textarea name="message" aria-label="message" placeholder="Your message...*" required
               class="input-field"></textarea>
 
-            <div class="checkbox-wrapper">
-              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
-
-              <label for="terms" class="label">
-                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
-                  Policy</a>
-              </label>
-            </div>
+              <div class="checkbox-wrapper">
+                <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+  
+                <label for="terms" class="label">
+                  Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
+                    Policy</a>
+                </label>
+              </div>
 
             <button type="submit" class="btn btn-primary">Send Message</button>
 
@@ -890,6 +899,28 @@
               </div>
             </li>
 
+            <li class="contact-item">
+              <div class="contact-card">
+
+               
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <div class="socail">
+
+                  <a href=""><i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+           
           </ul>
 
         </div>

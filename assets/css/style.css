@@ -249,12 +249,14 @@ body {
   #HEADER
 \*-----------------------------------*/
 
+
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white-1);
+  background-color: aqua;
   padding-block: 15px;
   border-block-end: 1px solid var(--cultured);
   z-index: 4;
@@ -286,7 +288,7 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: var(--white-1);
+  background-color: var(--lavender-gray);
   position: absolute;
   top: 100%;
   left: 50%;
@@ -815,7 +817,7 @@ textarea.input-field {
 
 .checkbox {
   width: max-content;
-  margin-block-start: 5px;
+  margin-block-start: 30px;
   accent-color: var(--red-crayola);
 }
 
@@ -876,6 +878,12 @@ textarea.input-field {
 }
 
 .contact-card .card-link:is(:hover, :focus) { color: var(--red-crayola); }
+
+.socail a{
+  display: inline;
+  font-size: xx-large;
+  padding-right: 20px;
+}
 
 
 
